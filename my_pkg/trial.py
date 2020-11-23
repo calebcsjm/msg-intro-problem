@@ -11,3 +11,15 @@ def square(x):
     """
 
     return x**2
+
+def factorial(n):
+    """Factorial calculates the factorial of the provided integer
+    
+    Ags: 
+        n (int): the value that the factorial will be computed from
+    Returns:
+        fact (int): the factorial of n.
+    Raises:
+        ValueError: if n is not an integer.
+    """
+    
